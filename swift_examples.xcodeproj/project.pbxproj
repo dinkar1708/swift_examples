@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F1D624224FC0C0B00D5C4AB /* Swift5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift5; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D624224FC0C0B00D5C4AB /* swift_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1D624524FC0C0B00D5C4AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7F1D625124FC162C00D5C4AB /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FCB090D2504B22C00A9F615 /* closure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closure.png; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			children = (
 				7FCB090C2504B1FB00A9F615 /* screenshots */,
 				7F1D625124FC162C00D5C4AB /* Closures.playground */,
-				7F1D624424FC0C0B00D5C4AB /* Swift5 */,
+				7F1D624424FC0C0B00D5C4AB /* swift_examples */,
 				7F1D624324FC0C0B00D5C4AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,17 +53,17 @@
 		7F1D624324FC0C0B00D5C4AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F1D624224FC0C0B00D5C4AB /* Swift5 */,
+				7F1D624224FC0C0B00D5C4AB /* swift_examples */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F1D624424FC0C0B00D5C4AB /* Swift5 */ = {
+		7F1D624424FC0C0B00D5C4AB /* swift_examples */ = {
 			isa = PBXGroup;
 			children = (
 				7F1D624524FC0C0B00D5C4AB /* main.swift */,
 			);
-			path = Swift5;
+			path = swift_examples;
 			sourceTree = "<group>";
 		};
 		7FCB090C2504B1FB00A9F615 /* screenshots */ = {
@@ -77,9 +77,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F1D624124FC0C0A00D5C4AB /* Swift5 */ = {
+		7F1D624124FC0C0A00D5C4AB /* swift_examples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F1D624924FC0C0B00D5C4AB /* Build configuration list for PBXNativeTarget "Swift5" */;
+			buildConfigurationList = 7F1D624924FC0C0B00D5C4AB /* Build configuration list for PBXNativeTarget "swift_examples" */;
 			buildPhases = (
 				7F1D623E24FC0C0A00D5C4AB /* Sources */,
 				7F1D623F24FC0C0A00D5C4AB /* Frameworks */,
@@ -89,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = Swift5;
-			productName = Swift5;
-			productReference = 7F1D624224FC0C0B00D5C4AB /* Swift5 */;
+			name = swift_examples;
+			productName = swift_examples;
+			productReference = 7F1D624224FC0C0B00D5C4AB /* swift_examples */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F1D623D24FC0C0A00D5C4AB /* Build configuration list for PBXProject "Swift5" */;
+			buildConfigurationList = 7F1D623D24FC0C0A00D5C4AB /* Build configuration list for PBXProject "swift_examples" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F1D624124FC0C0A00D5C4AB /* Swift5 */,
+				7F1D624124FC0C0A00D5C4AB /* swift_examples */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F1D623D24FC0C0A00D5C4AB /* Build configuration list for PBXProject "Swift5" */ = {
+		7F1D623D24FC0C0A00D5C4AB /* Build configuration list for PBXProject "swift_examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F1D624724FC0C0B00D5C4AB /* Debug */,
@@ -282,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F1D624924FC0C0B00D5C4AB /* Build configuration list for PBXNativeTarget "Swift5" */ = {
+		7F1D624924FC0C0B00D5C4AB /* Build configuration list for PBXNativeTarget "swift_examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F1D624A24FC0C0B00D5C4AB /* Debug */,
