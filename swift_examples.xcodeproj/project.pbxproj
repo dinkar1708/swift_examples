@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13773B2797E4CDF1D35E7F89 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAEB0C7723493839D553455 /* Functions.swift */; };
+		4094427A90AF84B03A6ACCDC /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99311EAB868FB32C9F68710 /* Optionals.swift */; };
+		56563FAE99EE98DADE82F618 /* VariablesAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DEC8252E063C4FD4AF573 /* VariablesAndConstants.swift */; };
+		58C582143F24EBE48116D673 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C9ED94E7CF12ADAA08B0BC /* Protocols.swift */; };
+		74AD4B20B59B9153CDC10E24 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9AB9BCD0D1F0EF3E92D0C /* ErrorHandling.swift */; };
 		7F1D624624FC0C0B00D5C4AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D624524FC0C0B00D5C4AB /* main.swift */; };
+		963790E14FABBFC70D59EA1B /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA69053824F267A9491D227 /* ControlFlow.swift */; };
+		DA85D4A52BA0BD80049CB02B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D938263C34EA9127416379 /* Enums.swift */; };
+		E3FDC2F199390B50D242B628 /* ClassesAndStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4CE530BC6351C552FE998 /* ClassesAndStructs.swift */; };
+		E6466BA60C5D277BBD8FD705 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E8CDB55405A1E11CD1A8EF /* Collections.swift */; };
+		F7A478980018BFB330A48FAF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDFD9AEF0598BC99685E47 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,10 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15FDFD9AEF0598BC99685E47 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		60D938263C34EA9127416379 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		7F1D624224FC0C0B00D5C4AB /* swift_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1D624524FC0C0B00D5C4AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7F1D625124FC162C00D5C4AB /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FCB090D2504B22C00A9F615 /* closure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closure.png; sourceTree = "<group>"; };
+		9EAEB0C7723493839D553455 /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		B99311EAB868FB32C9F68710 /* Optionals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
+		B9C9ED94E7CF12ADAA08B0BC /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		BCA69053824F267A9491D227 /* ControlFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
+		C5E8CDB55405A1E11CD1A8EF /* Collections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		D7C9AB9BCD0D1F0EF3E92D0C /* ErrorHandling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		EB1DEC8252E063C4FD4AF573 /* VariablesAndConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VariablesAndConstants.swift; sourceTree = "<group>"; };
+		ECB4CE530BC6351C552FE998 /* ClassesAndStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClassesAndStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,16 @@
 			isa = PBXGroup;
 			children = (
 				7F1D624524FC0C0B00D5C4AB /* main.swift */,
+				EB1DEC8252E063C4FD4AF573 /* VariablesAndConstants.swift */,
+				B99311EAB868FB32C9F68710 /* Optionals.swift */,
+				BCA69053824F267A9491D227 /* ControlFlow.swift */,
+				9EAEB0C7723493839D553455 /* Functions.swift */,
+				ECB4CE530BC6351C552FE998 /* ClassesAndStructs.swift */,
+				B9C9ED94E7CF12ADAA08B0BC /* Protocols.swift */,
+				60D938263C34EA9127416379 /* Enums.swift */,
+				C5E8CDB55405A1E11CD1A8EF /* Collections.swift */,
+				D7C9AB9BCD0D1F0EF3E92D0C /* ErrorHandling.swift */,
+				15FDFD9AEF0598BC99685E47 /* Extensions.swift */,
 			);
 			path = swift_examples;
 			sourceTree = "<group>";
@@ -133,6 +163,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1D624624FC0C0B00D5C4AB /* main.swift in Sources */,
+				56563FAE99EE98DADE82F618 /* VariablesAndConstants.swift in Sources */,
+				4094427A90AF84B03A6ACCDC /* Optionals.swift in Sources */,
+				963790E14FABBFC70D59EA1B /* ControlFlow.swift in Sources */,
+				13773B2797E4CDF1D35E7F89 /* Functions.swift in Sources */,
+				E3FDC2F199390B50D242B628 /* ClassesAndStructs.swift in Sources */,
+				58C582143F24EBE48116D673 /* Protocols.swift in Sources */,
+				DA85D4A52BA0BD80049CB02B /* Enums.swift in Sources */,
+				E6466BA60C5D277BBD8FD705 /* Collections.swift in Sources */,
+				74AD4B20B59B9153CDC10E24 /* ErrorHandling.swift in Sources */,
+				F7A478980018BFB330A48FAF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
