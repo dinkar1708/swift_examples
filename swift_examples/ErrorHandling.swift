@@ -153,6 +153,8 @@ func errorHandlingExamples() {
         try readFile()
     } catch let error as LocalizedError {
         print("Error: \(error.errorDescription ?? "Unknown error")")
+    } catch {
+        print("Error: \(error)")
     }
 
     // MARK: - Result Type
